@@ -18,7 +18,7 @@ class TaskUpdate(BaseModel):
 
 class TaskStatusUpdate(BaseModel):
     status: TaskStatus
-    
+
 
 class TaskResponse(BaseModel):
     id: int
